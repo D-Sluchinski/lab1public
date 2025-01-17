@@ -89,8 +89,8 @@ export default function App() {
     <View style={styles.container}>
       <View>
         <Text style={styles.title}>Welcome to my application</Text>
-      <Text>Hello {person2.name}.  You are going to {person2.vacation_location_value}
-        {person2.vacation_price_value},</Text>
+      <Text style={styles.text}>Hello {person2.name}.  You are going to {person2.vacation_location_value}. 
+        {person2.vacation_price_value}</Text>
       <Text></Text>
       
       <View>
@@ -121,8 +121,8 @@ const styles = StyleSheet.create({
 
     },
   text: {
-
-    color: "#0007f",
+    color: "#CD5C5C",
+    //color: "#00007f",
     fontSize: 16,
   }
   

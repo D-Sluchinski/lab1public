@@ -9,7 +9,8 @@ export function vacation_location(location: String): String {
 //arrow function
 export const vacation_price = (price: number, location: string): string => {
     if (location === "Paris") {
-        return `the price of the cacation is: ${price+100}`;
+        return ` the price of the vacation is: ${price+100}`;
     }
-    return `the price of the cataion is ${price}`;
+
+    return ` the price of the vacataion is ${price}`;
 }
